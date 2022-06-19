@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: lightcoral;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.App h3 {
+  margin-top: 0;
+}
+
+.App p {
+  margin: 2rem;
+}
+
+.App button {
+  background-color: lightyellow;
+  /* color: white; */
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.App button:active {
+  transform: scale(0.97);
+}
+
+.App button:focus {
+  outline: none;
+}
